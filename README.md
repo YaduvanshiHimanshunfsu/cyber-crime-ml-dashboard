@@ -1,6 +1,6 @@
-# 🚨 Cyber Crime Intelligence System (Pro Max Edition)
+ Cyber Crime Intelligence System 
 
-## 📌 Overview
+ Overview
 The **Cyber Crime Intelligence System** is an advanced, self-learning ecosystem designed to track, analyze, and predict digital crime trends across India. Powered by automated Machine Learning pipelines and a Google-Grounded Gemini AI Engine, this dashboard serves as a comprehensive portal for cyber threat intelligence, comparative state analysis, and digital law provisions.
 
 Created by **Himanshu Yadav** | *B.Tech-M.Tech CSE (Cybersecurity) @ National Forensic Science University (NFSU)*.
@@ -57,7 +57,7 @@ Provides a fully mapped out, offline legal encyclopedia:
      python -m streamlit run app/dashboard.py
      ```
 
-## 🔮 Future Scope
+ Future Scope
 - Seamless PostgreSQL integration for real-world automated police reporting hooks.
 - Deploying into an AWS / GCP Dockerized environment.
 - Implementing deeper NLP analytics on individual unstructured cyber FIR reports.
