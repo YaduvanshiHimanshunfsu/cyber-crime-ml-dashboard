@@ -5,7 +5,7 @@ import pickle
 
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, GridSearchCV
 
 # Optional
 try:
@@ -73,21 +73,31 @@ def train_models(X, y):
 
     models = {}
 
-    # ===== RandomForest =====
-    print("[INFO] Training RandomForest...")
-    rf = RandomForestRegressor(n_estimators=200, random_state=42)
-    rf.fit(X_train, y_train)
-    models["rf"] = rf
+    # ===== Self-Optimizing RandomForest =====
+    print("[INFO] Self-Learning: Tuning RandomForest hyperparameters...")
+    rf_param_grid = {
+        'n_estimators': [100, 200],
+        'max_depth': [10, 20, None],
+        'min_samples_split': [2, 5]
+    }
+    rf_grid = GridSearchCV(RandomForestRegressor(random_state=42), rf_param_grid, cv=3, scoring='neg_mean_squared_error', n_jobs=-1)
+    rf_grid.fit(X_train, y_train)
+    models["rf_optimized"] = rf_grid.best_estimator_
 
-    # ===== XGBoost =====
+    # ===== Self-Optimizing XGBoost =====
     if XGB_AVAILABLE:
-        print("[INFO] Training XGBoost...")
-        xgb = XGBRegressor(n_estimators=200, learning_rate=0.05)
-        xgb.fit(X_train, y_train)
-        models["xgb"] = xgb
+        print("[INFO] Self-Learning: Tuning XGBoost hyperparameters...")
+        xgb_param_grid = {
+            'n_estimators': [100, 200],
+            'learning_rate': [0.01, 0.05, 0.1],
+            'max_depth': [3, 5, 7]
+        }
+        xgb_grid = GridSearchCV(XGBRegressor(random_state=42), xgb_param_grid, cv=3, scoring='neg_mean_squared_error', n_jobs=-1)
+        xgb_grid.fit(X_train, y_train)
+        models["xgb_optimized"] = xgb_grid.best_estimator_
 
-    # ===== Evaluation =====
-    print("[INFO] Evaluating models...")
+    # ===== Elite Model Selection =====
+    print("[INFO] Evaluating and selecting best model algorithms...")
 
     best_model = None
     best_rmse = float("inf")
@@ -106,6 +116,7 @@ def train_models(X, y):
             best_rmse = rmse
             best_model = model
 
+    print(f"[INFO] 🏆 Champion Model Selected: {type(best_model).__name__}")
     return best_model, X_test, y_test
 
 

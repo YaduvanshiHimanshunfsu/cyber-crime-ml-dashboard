@@ -10,7 +10,10 @@ STATE_INFO = {
         "cm": "N. Chandrababu Naidu",
         "governor": "S. Abdul Nazeer",
         "formation": "1956",
-        "region": "South India"
+        "region": "South India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "90 %",
+        "helpline": "1930"
     },
 
     "ARUNACHAL PRADESH": {
@@ -18,7 +21,10 @@ STATE_INFO = {
         "cm": "Pema Khandu",
         "governor": "K. T. Parnaik",
         "formation": "1987",
-        "region": "North-East India"
+        "region": "North-East India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "90 %",
+        "helpline": "1930"
     },
 
     "ASSAM": {
@@ -26,7 +32,10 @@ STATE_INFO = {
         "cm": "Himanta Biswa Sarma",
         "governor": "Gulab Chand Kataria",
         "formation": "1950",
-        "region": "North-East India"
+        "region": "North-East India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "85 %",
+        "helpline": "1930"
     },
 
     "BIHAR": {
@@ -34,7 +43,10 @@ STATE_INFO = {
         "cm": "Nitish Kumar",
         "governor": "Rajendra Arlekar",
         "formation": "1950",
-        "region": "East India"
+        "region": "East India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "78 %",
+        "helpline": "1930"
     },
 
     "CHHATTISGARH": {
@@ -42,7 +54,10 @@ STATE_INFO = {
         "cm": "Vishnu Deo Sai",
         "governor": "Biswabhusan Harichandan",
         "formation": "2000",
-        "region": "Central India"
+        "region": "Central India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "81 %",
+        "helpline": "1930"
     },
 
     "GOA": {
@@ -50,7 +65,10 @@ STATE_INFO = {
         "cm": "Pramod Sawant",
         "governor": "P. S. Sreedharan Pillai",
         "formation": "1987",
-        "region": "West India"
+        "region": "West India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "80 %",
+        "helpline": "1930"
     },
 
     "GUJARAT": {
@@ -58,7 +76,10 @@ STATE_INFO = {
         "cm": "Bhupendra Patel",
         "governor": "Acharya Devvrat",
         "formation": "1960",
-        "region": "West India"
+        "region": "West India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "78 %",
+        "helpline": "1930"
     },
 
     "HARYANA": {
@@ -66,7 +87,10 @@ STATE_INFO = {
         "cm": "Nayab Singh Saini",
         "governor": "Bandaru Dattatreya",
         "formation": "1966",
-        "region": "North India"
+        "region": "North India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "91 %",
+        "helpline": "1930"
     },
 
     "HIMACHAL PRADESH": {
@@ -74,7 +98,10 @@ STATE_INFO = {
         "cm": "Sukhvinder Singh Sukhu",
         "governor": "Shiv Pratap Shukla",
         "formation": "1971",
-        "region": "North India"
+        "region": "North India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "72 %",
+        "helpline": "1930"
     },
 
     "JHARKHAND": {
@@ -82,7 +109,10 @@ STATE_INFO = {
         "cm": "Champai Soren",
         "governor": "C. P. Radhakrishnan",
         "formation": "2000",
-        "region": "East India"
+        "region": "East India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "87 %",
+        "helpline": "1930"
     },
 
     "KARNATAKA": {
@@ -90,7 +120,10 @@ STATE_INFO = {
         "cm": "Siddaramaiah",
         "governor": "Thaawarchand Gehlot",
         "formation": "1956",
-        "region": "South India"
+        "region": "South India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "74 %",
+        "helpline": "1930"
     },
 
     "KERALA": {
@@ -98,7 +131,10 @@ STATE_INFO = {
         "cm": "Pinarayi Vijayan",
         "governor": "Arif Mohammed Khan",
         "formation": "1956",
-        "region": "South India"
+        "region": "South India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "83 %",
+        "helpline": "1930"
     },
 
     "MADHYA PRADESH": {
@@ -106,7 +142,10 @@ STATE_INFO = {
         "cm": "Mohan Yadav",
         "governor": "Mangubhai Patel",
         "formation": "1956",
-        "region": "Central India"
+        "region": "Central India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "93 %",
+        "helpline": "1930"
     },
 
     "MAHARASHTRA": {
@@ -114,7 +153,10 @@ STATE_INFO = {
         "cm": "Eknath Shinde",
         "governor": "Ramesh Bais",
         "formation": "1960",
-        "region": "West India"
+        "region": "West India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "69 %",
+        "helpline": "1930"
     },
 
     "MANIPUR": {
@@ -122,7 +164,10 @@ STATE_INFO = {
         "cm": "N. Biren Singh",
         "governor": "Anusuiya Uikey",
         "formation": "1972",
-        "region": "North-East India"
+        "region": "North-East India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "91 %",
+        "helpline": "1930"
     },
 
     "MEGHALAYA": {
@@ -130,7 +175,10 @@ STATE_INFO = {
         "cm": "Conrad Sangma",
         "governor": "Phagu Chauhan",
         "formation": "1972",
-        "region": "North-East India"
+        "region": "North-East India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "83 %",
+        "helpline": "1930"
     },
 
     "MIZORAM": {
@@ -138,7 +186,10 @@ STATE_INFO = {
         "cm": "Lalduhoma",
         "governor": "Hari Babu Kambhampati",
         "formation": "1987",
-        "region": "North-East India"
+        "region": "North-East India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "93 %",
+        "helpline": "1930"
     },
 
     "NAGALAND": {
@@ -146,7 +197,10 @@ STATE_INFO = {
         "cm": "Neiphiu Rio",
         "governor": "La. Ganesan",
         "formation": "1963",
-        "region": "North-East India"
+        "region": "North-East India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "82 %",
+        "helpline": "1930"
     },
 
     "ODISHA": {
@@ -154,7 +208,10 @@ STATE_INFO = {
         "cm": "Mohan Charan Majhi",
         "governor": "Raghubar Das",
         "formation": "1950",
-        "region": "East India"
+        "region": "East India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "95 %",
+        "helpline": "1930"
     },
 
     "PUNJAB": {
@@ -162,7 +219,10 @@ STATE_INFO = {
         "cm": "Bhagwant Mann",
         "governor": "Banwarilal Purohit",
         "formation": "1966",
-        "region": "North India"
+        "region": "North India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "84 %",
+        "helpline": "1930"
     },
 
     "RAJASTHAN": {
@@ -170,7 +230,10 @@ STATE_INFO = {
         "cm": "Bhajan Lal Sharma",
         "governor": "Kalraj Mishra",
         "formation": "1950",
-        "region": "North-West India"
+        "region": "North-West India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "88 %",
+        "helpline": "1930"
     },
 
     "SIKKIM": {
@@ -178,7 +241,10 @@ STATE_INFO = {
         "cm": "Prem Singh Tamang",
         "governor": "Lakshman Prasad Acharya",
         "formation": "1975",
-        "region": "North-East India"
+        "region": "North-East India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "92 %",
+        "helpline": "1930"
     },
 
     "TAMIL NADU": {
@@ -186,7 +252,10 @@ STATE_INFO = {
         "cm": "M. K. Stalin",
         "governor": "R. N. Ravi",
         "formation": "1956",
-        "region": "South India"
+        "region": "South India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "93 %",
+        "helpline": "1930"
     },
 
     "TELANGANA": {
@@ -194,7 +263,10 @@ STATE_INFO = {
         "cm": "Revanth Reddy",
         "governor": "Tamilisai Soundararajan",
         "formation": "2014",
-        "region": "South India"
+        "region": "South India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "68 %",
+        "helpline": "1930"
     },
 
     "TRIPURA": {
@@ -202,7 +274,10 @@ STATE_INFO = {
         "cm": "Manik Saha",
         "governor": "Indra Sena Reddy",
         "formation": "1972",
-        "region": "North-East India"
+        "region": "North-East India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "77 %",
+        "helpline": "1930"
     },
 
     "UTTAR PRADESH": {
@@ -210,7 +285,10 @@ STATE_INFO = {
         "cm": "Yogi Adityanath",
         "governor": "Anandiben Patel",
         "formation": "1950",
-        "region": "North India"
+        "region": "North India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "85 %",
+        "helpline": "1930"
     },
 
     "UTTARAKHAND": {
@@ -218,7 +296,10 @@ STATE_INFO = {
         "cm": "Pushkar Singh Dhami",
         "governor": "Gurmit Singh",
         "formation": "2000",
-        "region": "North India"
+        "region": "North India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "88 %",
+        "helpline": "1930"
     },
 
     "WEST BENGAL": {
@@ -226,7 +307,10 @@ STATE_INFO = {
         "cm": "Mamata Banerjee",
         "governor": "C. V. Ananda Bose",
         "formation": "1950",
-        "region": "East India"
+        "region": "East India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "88 %",
+        "helpline": "1930"
     },
 
     # ================= UTs =================
@@ -234,7 +318,10 @@ STATE_INFO = {
         "capital": "Port Blair",
         "admin": "Admiral D. K. Joshi",
         "formation": "1956",
-        "region": "Islands"
+        "region": "Islands",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "76 %",
+        "helpline": "1930"
     },
 
     "DELHI": {
@@ -242,28 +329,40 @@ STATE_INFO = {
         "cm": "Atishi",
         "lg": "V. K. Saxena",
         "formation": "1956 / 1991",
-        "region": "North India"
+        "region": "North India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "94 %",
+        "helpline": "1930"
     },
 
     "JAMMU AND KASHMIR": {
         "capital": "Srinagar/Jammu",
         "lg": "Manoj Sinha",
         "formation": "2019",
-        "region": "North India"
+        "region": "North India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "66 %",
+        "helpline": "1930"
     },
 
     "LADAKH": {
         "capital": "Leh",
         "lg": "B. D. Mishra",
         "formation": "2019",
-        "region": "North India"
+        "region": "North India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "94 %",
+        "helpline": "1930"
     },
 
     "LAKSHADWEEP": {
         "capital": "Kavaratti",
         "admin": "Praful Patel",
         "formation": "1956",
-        "region": "Islands"
+        "region": "Islands",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "70 %",
+        "helpline": "1930"
     },
 
     "PUDUCHERRY": {
@@ -271,20 +370,29 @@ STATE_INFO = {
         "cm": "N. Rangasamy",
         "lg": "Tamilisai Soundararajan",
         "formation": "1963",
-        "region": "South India"
+        "region": "South India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "91 %",
+        "helpline": "1930"
     },
 
     "DADRA AND NAGAR HAVELI": {
         "capital": "Daman",
         "admin": "Praful Patel",
         "formation": "2020",
-        "region": "West India"
+        "region": "West India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "81 %",
+        "helpline": "1930"
     },
 
     "DAMAN AND DIU": {
         "capital": "Daman",
         "admin": "Praful Patel",
         "formation": "2020",
-        "region": "West India"
+        "region": "West India",
+        "cyber_nodal_agency": "State Cyber Cell / CCTNS Mapping",
+        "it_literacy_index": "77 %",
+        "helpline": "1930"
     }
 }

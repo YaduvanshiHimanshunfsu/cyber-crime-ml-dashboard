@@ -1,39 +1,36 @@
-# 🔹 Python cache files
+# ================================
+# 🚫 Virtual Environment
+# ================================
+ai_env/
+venv/
+env/
+
+# ================================
+# 🚫 Python Cache
+# ================================
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
 
-# 🔹 Virtual environment
-venv/
-env/
-.venv/
-
-# 🔹 VS Code settings
-.vscode/
-
-# 🔹 Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# 🔹 Environment variables (secrets)
-.env
-
-# 🔹 Data files (large datasets)
-data/
-*.csv
-*.xlsx
-
-# 🔹 ML model files
+# ================================
+# 🚫 Model Files
+# ================================
 *.pkl
 *.joblib
 
-# 🔹 Logs
-*.log
+# ================================
+# 🚫 Environment / Secrets
+# ================================
+.env
 
-# 🔹 OS files
+# ================================
+# 🚫 IDE Files
+# ================================
+.vscode/
+.idea/
+
+# ================================
+# 🚫 System Files
+# ================================
 .DS_Store
 Thumbs.db
-
-# 🔹 Temporary files
-*.tmp
-*.temp

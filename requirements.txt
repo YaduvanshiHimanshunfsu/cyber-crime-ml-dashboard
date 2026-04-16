@@ -1,8 +1,12 @@
 pandas
 numpy
-matplotlib
-seaborn
 scikit-learn
 streamlit
 joblib
-kagglehub
+fastapi
+uvicorn
+plotly
+google-genai
+xgboost
+streamlit-lottie
+requests

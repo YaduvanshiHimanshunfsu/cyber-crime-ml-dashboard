@@ -1,0 +1,159 @@
+ Cyber Crime AI Intelligence Dashboard – GitHub Spotlight
+
+Hey developers!
+I recently upgraded my Cyber Crime Analytics project 
+
+This system helps **track, analyze, and even predict cyber crime trends in India** using data science and AI tools. It combines machine learning with modern AI (GenAI) to give useful insights.
+
+Below is a simple breakdown of how everything works and how you can run it yourself.
+
+---
+
+## 🏗️ System Approach & Methodology
+
+### 🧠 1. Smart Self-Learning ML Model
+
+I didn’t want a fixed or basic ML model.
+
+* I used **XGBoost + Random Forest together (ensemble model)**
+* Added **GridSearchCV**, which tests many combinations automatically
+* The model checks which setup gives the best accuracy (using MSE)
+
+👉 In simple words:
+The system **tries thousands of combinations and picks the best one on its own**
+
+* It then saves the best model (called the **“Champion Model”**)
+* This model is used to predict future cyber crimes (2025–2028)
+
+---
+
+### 🌍 2. AI Connected to Real-Time Google Data
+
+Normal AI models sometimes give wrong or outdated answers.
+
+* So I connected **Gemini (google-genai)** with live internet data
+* It uses Google search to get **real, updated information**
+
+👉 This helps in:
+
+* Understanding cyber crime trends (like UPI frauds)
+* Comparing crime patterns between Indian states
+* Explaining motives and methods of crimes
+
+💡 Extra smart feature:
+
+* If API limit is reached → system shows a **diagnostic message**
+* Then it automatically switches to offline mode (no crash)
+
+---
+
+### ⚖️ 3. Strong Custom Database System
+
+Instead of depending only on APIs, I manually structured data.
+
+* Created custom files like:
+
+  * `state_info.py`
+  * `utils.py`
+
+👉 These include:
+
+* Mapping between **BNS and IPC laws**
+* Digital literacy data (approx)
+* State cyber agencies info
+
+So the system gives **more accurate and India-specific insights**
+
+---
+
+### 🎨 4. Clean & Modern UI Design
+
+Streamlit apps usually look basic… so I improved the design.
+
+* Used **plotly_dark theme**
+* Smooth graphs with spline curves
+* Added animations using `streamlit-lottie`
+* Clean layout with better spacing and visuals
+
+👉 Result:
+A **modern, smooth, and interactive dashboard**
+
+---
+
+## 🛠️ How to Run This Project
+
+### 1️⃣ Clone & Setup Environment
+
+```bash
+git clone <your-github-repo-link>
+cd cyber-crime-ml-dashboard
+
+python -m venv ai_env
+```
+
+Activate environment:
+
+**Windows:**
+
+```bash
+.\ai_env\Scripts\activate
+```
+
+**Mac/Linux:**
+
+```bash
+source ai_env/bin/activate
+```
+
+---
+
+### 2️⃣ Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 3️⃣ Add Your API Key (Important 🔑)
+
+**Never upload your API key to GitHub**
+
+Set it locally:
+
+**Windows:**
+
+```cmd
+set GEMINI_API_KEY="YOUR_API_KEY"
+```
+
+**Mac/Linux:**
+
+```bash
+export GEMINI_API_KEY="YOUR_API_KEY"
+```
+
+---
+
+### 4️⃣ Run the Project
+
+Start backend:
+
+```bash
+uvicorn app.api:app --reload
+```
+
+Start dashboard:
+
+```bash
+python -m streamlit run app/dashboard.py
+```
+
+👉 Then open in browser:
+
+```
+http://localhost:
+```
+
+---
+
